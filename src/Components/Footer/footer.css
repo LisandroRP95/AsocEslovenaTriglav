@@ -1,0 +1,10 @@
+.footerDiv{
+    background-color: rgb(33, 87, 205);
+    height: 10rem;
+}
+
+.footerData{
+    color: white;
+    text-align: right;
+    margin-right: 3%;
+}

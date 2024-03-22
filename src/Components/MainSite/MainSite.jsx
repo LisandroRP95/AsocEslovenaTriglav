@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
+import './mainSite.css'
 
 
 const MainSite = () => {
@@ -13,7 +14,7 @@ const MainSite = () => {
 
 <Carousel data-bs-theme="dark">
       <Carousel.Item>
-        <Image src="../src/assets/Bled.jpg"/>
+        <Image className='imgSize' src="../src/assets/Bled.jpg"/>
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -21,7 +22,7 @@ const MainSite = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-        <Image src="../src/assets/images.jpg"/>
+        <Image className='imgSize' src="../src/assets/images.jpg"/>
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -29,7 +30,7 @@ const MainSite = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-      <Image src="../src/assets/slovenija.jpg"/>
+      <Image className='imgSize' src="../src/assets/slovenija.jpg"/>
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
