@@ -11,8 +11,13 @@ const NavBar = () => {
             <Navbar.Brand href="#home">Asoc. Eslovena Triglav Rosario</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="#home">Inicio</Nav.Link>
-              <Nav.Link href="#Activities">Actividades</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#Activities">Institucional</Nav.Link>
+              <Nav.Link href="#Activities">Información</Nav.Link>
+              <Nav.Link href="#pricing">Actividades</Nav.Link>
+              <Nav.Link href="#pricing">Galeria de Fotos</Nav.Link>
+              <Nav.Link href="#pricing">Nota de interes</Nav.Link>
+              <Nav.Link href="#pricing">Ubicación</Nav.Link>
+              <Nav.Link href="#pricing">Contacto</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
