@@ -8,18 +8,18 @@ const NavBar = () => {
     <>
       <Navbar expand="lg" sticky="top" bg="primary" data-bs-theme="dark" className="me-auto">
         <Container>
-          <Navbar.Brand href="#home">Asoc. Eslovena Triglav Rosario</Navbar.Brand>
+          <Navbar.Brand href="/">Asoc. Eslovena Triglav Rosario</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#Activities">Institucional</Nav.Link>
-            <Nav.Link href="#Activities">Información</Nav.Link>
-            <Nav.Link href="#pricing">Actividades</Nav.Link>
-            <Nav.Link href="#pricing">Galeria de Fotos</Nav.Link>
-            <Nav.Link href="#pricing">Nota de interes</Nav.Link>
-            <Nav.Link href="#pricing">Ubicación</Nav.Link>
-            <Nav.Link href="#pricing">Contacto</Nav.Link>
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/institucional">Institucional</Nav.Link>
+            <Nav.Link href="/informacion">Información</Nav.Link>
+            <Nav.Link href="/actividades">Actividades</Nav.Link>
+            <Nav.Link href="/galeriadefotos">Galeria de Fotos</Nav.Link>
+            <Nav.Link href="/notasdeinteres">Nota de interes</Nav.Link>
+            <Nav.Link href="/ubicacion">Ubicación</Nav.Link>
+            <Nav.Link href="/contacto">Contacto</Nav.Link>
           </Nav>
           </Navbar.Collapse>
         </Container>
