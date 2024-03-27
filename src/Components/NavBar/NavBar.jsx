@@ -1,14 +1,23 @@
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'react-bootstrap/Image';
+import './navBar.css'
 
 const NavBar = () => {
   return (
     <>
       <Navbar expand="lg" sticky="top" bg="primary" data-bs-theme="dark" className="me-auto">
         <Container>
-          <Navbar.Brand href="/">Asoc. Eslovena Triglav Rosario</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <Row>
+            <Col xs={6} md={4}>
+            <Image className='logoChico' src="../src/assets/escudofinal-01.png" roundedCircle />
+            </Col>
+            </Row>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
