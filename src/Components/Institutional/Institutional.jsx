@@ -3,6 +3,7 @@ import "./institutional.css";
 import EslovenosEnRosario from "./eslovenos-en-rosario/EslovenosEnRosario";
 import TriglavRosario from "./TriglavRosario/TriglavRosario";
 import ListaPresidentes from "./ListaPresidentes/ListaPresidentes";
+import ComisionDirectiva from "./ComisionDirectiva/ComisionDirectiva";
 
 const Institutional = () => {
   return (
@@ -35,6 +36,16 @@ const Institutional = () => {
           <Accordion.Body>
             <div className="textMargin">
               <ListaPresidentes />
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header>
+            Comisión directiva actual
+          </Accordion.Header>
+          <Accordion.Body>
+            <div className="textMargin">
+              <ComisionDirectiva />
             </div>
           </Accordion.Body>
         </Accordion.Item>
