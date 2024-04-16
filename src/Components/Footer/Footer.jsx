@@ -15,8 +15,19 @@ const Footer = () => {
             <Col><br /><Image src="../src/assets/escudofinal-02.png" roundedCircle /></Col>
             <Col><br /><p className='footerData'>© 2024 Asociación Eslovena Triglav Rosario</p></Col>
             <Col><br /><p className='footerData'>Developed by athomic</p></Col>
+          </Row><br />
+          <Row>
+            <Col>
+              <Image className='imageSize' src="../src/assets/fb.png" roundedCircle />
+            </Col>
+            <Col><p className='footerData'>/TriglavRosario</p></Col>
+
+            <Col>
+              <Image className='imageSize' src="../src/assets/instagram.png" roundedCircle />
+            </Col>
+            <Col><p className='footerData'>/triglav.rosario</p></Col>
           </Row>
-        </Container>
+        </Container><br />
       </div>
 
 
