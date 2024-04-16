@@ -10,6 +10,17 @@
 }
 
 .imageSize{
-    width: 50px;
+    width: 30px;
     height: auto;
+}
+
+.logoChico{
+    width: 70px;
+    height: auto;
+}
+
+.socialText{
+    color: white;
+    text-align: left;
+    text-decoration: none;
 }
