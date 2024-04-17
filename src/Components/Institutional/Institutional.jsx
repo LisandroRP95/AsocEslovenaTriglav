@@ -11,7 +11,7 @@ const Institutional = () => {
       
       <h3 className="textMargin">Institucional</h3>
 
-      <Accordion defaultActiveKey="0">
+      <Accordion defaultActiveKey="0" flush>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Eslovenos en Rosario</Accordion.Header>
           <Accordion.Body>

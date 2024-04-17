@@ -4,20 +4,20 @@ import './comisionDirectiva.css'
 const ComisionDirectiva = () => {
   return (
     <div>
-      <ul className='list'>PRESIDENTE: María Eugenia Ersetig</ul>
-      <ul>VICEPRESIDENTE: Alejandra Kervin</ul>
-      <ul>SECRETARIO: Cristian Matias Spuches</ul>
-      <ul>PRO SECRETARIO: Cristian Ferari</ul>
-      <ul>TESORERA: Patricia Prestera</ul>
-      <ul>PRO TESORERO: Ana Belen Romeu</ul>
-      <ul>1ER VOCAL TITULAR: María Belén Rodriguez Peña</ul>
-      <ul>2DO VOCAL TITULAR: Daniela Matjazic</ul>
-      <ul>3ER VOCAL TITULAR: Lisandro Rodriguez Peña</ul>
-      <ul>1ER VOCAL SUPLENTE: Esteban Matjazic</ul>
-      <ul>2DO VOCAL SUPLENTE: Silvana Rodriguez</ul>
-      <ul>3ER VOCAL SUPLENTE: Augusto Eezckui</ul>
-      <ul>SÍNDICO TITULAR: Rosalía Masón Anzelín</ul>
-      <ul>SÍNDICO SUPLENTE: Mariela Usaj</ul>
+      <ul><b>PRESIDENTE:</b> María Eugenia Ersetig</ul>
+      <ul><b>VICEPRESIDENTE:</b> Alejandra Kervin</ul>
+      <ul><b>SECRETARIO:</b> Cristian Matias Spuches</ul>
+      <ul><b>PRO SECRETARIO:</b> Cristian Ferari</ul>
+      <ul><b>TESORERA:</b> Patricia Prestera</ul>
+      <ul><b>PRO TESORERO:</b> Ana Belen Romeu</ul>
+      <ul><b>1ER VOCAL TITULAR:</b> María Belén Rodriguez Peña</ul>
+      <ul><b>2DO VOCAL TITULAR:</b> Daniela Matjazic</ul>
+      <ul><b>3ER VOCAL TITULAR:</b> Lisandro Rodriguez Peña</ul>
+      <ul><b>1ER VOCAL SUPLENTE:</b> Esteban Matjazic</ul>
+      <ul><b>2DO VOCAL SUPLENTE:</b> Silvana Rodriguez</ul>
+      <ul><b>3ER VOCAL SUPLENTE:</b> Augusto Eezckui</ul>
+      <ul><b>SÍNDICO TITULAR:</b> Rosalía Masón Anzelín</ul>
+      <ul><b>SÍNDICO SUPLENTE:</b> Mariela Usaj</ul>
     </div>
   )
 }
