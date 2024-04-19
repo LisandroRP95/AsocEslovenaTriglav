@@ -1,8 +1,15 @@
-import React from 'react'
+
+
 
 const PhotoGallery = () => {
+
+
   return (
-    <div>PhotoGallery</div>
+    <div>
+        
+        Deje más limpio este componente
+
+    </div>
   )
 }
 
