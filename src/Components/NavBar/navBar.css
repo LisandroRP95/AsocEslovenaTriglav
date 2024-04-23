@@ -1,4 +1,11 @@
 .logoChico {
+    margin-right: 15px;
     width: 70px;
     height: auto;
+}
+
+.btnNavBar{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
 }

@@ -1,5 +1,14 @@
 .imgSize{
-    align-items: right;
-    height: 400px;
-    width: 800px;
+    object-fit:cover;
+    height: 40vh;
+    width: 100vw;
+}
+
+.textDecoration{
+    text-decoration: none;
+    color: rgb(67, 129, 215);
+}
+
+.titleDescription{
+    color: rgb(67, 129, 215);;
 }

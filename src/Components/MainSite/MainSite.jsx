@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -16,16 +17,21 @@ const MainSite = () => {
       <Carousel.Item>
         <Image className='imgSize' src="../src/assets/Bled.jpg"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          
+        <Link className="textDecoration" to={"/institucional"}>
+          <h3>Institucional</h3>
+          </Link>
+          <p className="titleDescription">Conozca la historia de la asociación desde sus inicios.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Image className='imgSize' src="../src/assets/images.jpg"/>
+        <Image src="../src/assets/images.jpg"/>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Link className="textDecoration" to={"/actividades"}>
+          <h3>Actividades</h3>
+          </Link>
+          <p>Descubre nuestras diversas actividades y encuentra la que quieras compartir con nosotros.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -50,7 +56,7 @@ const MainSite = () => {
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              bulk of the content.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
             </Card.Body>
@@ -64,7 +70,7 @@ const MainSite = () => {
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              bulk of the content.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
             </Card.Body>
@@ -78,7 +84,7 @@ const MainSite = () => {
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              bulk of the  content.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
             </Card.Body>
